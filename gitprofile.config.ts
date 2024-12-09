@@ -59,7 +59,7 @@ const CONFIG = {
   social: {
     linkedin: 'rajvardhan-singh-dodiya',
     twitter: 'rajvardhansd',
-    mastodon: 'arifszn@mastodon.social',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
