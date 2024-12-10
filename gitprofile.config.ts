@@ -14,10 +14,10 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 12, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['0xRajvardhan/Topmate-clone', '0xRajvardhan/SocialMediaApp', '0xRajvardhan/Authentication-with-Supabase', '0xRajvardhan/Trello-2.0', '0xRajvardhan/Untapped-Clone', '0xRajvardhan/Metaverse-Madness', '0xRajvardhan/Netflix-Clone', '0xRajvardhan/HooBank', '0xRajvardhan/GPT3_raj7dev', '0xRajvardhan/Linkedin-Frontend','0xRajvardhan/UniversityName.org', '0xRajvardhan/Weather-App'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -102,6 +102,8 @@ const CONFIG = {
     'Express.js',
     'Zod',
     'Bun',
+    'Prisma',
+    'Mongoose',
   ],
   experiences: [
     {
@@ -164,7 +166,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
