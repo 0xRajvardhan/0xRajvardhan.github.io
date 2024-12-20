@@ -12,7 +12,7 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
@@ -156,27 +156,18 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: '',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: '',
+      link: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
+    source: '', // medium | dev
     username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
@@ -253,7 +244,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/0xRajvardhan/0xRajvardhan.github.io"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
